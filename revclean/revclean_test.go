@@ -4,8 +4,8 @@ import (
 	"testing"
 	"net/http"
 	"log"
-	"github.com/yoavl/coucher/util"
-	"github.com/yoavl/coucher/database"
+	"github.com/yoav/coucher/util"
+	"github.com/yoav/coucher/database"
 	"fmt"
 )
 

@@ -2,7 +2,7 @@ package revclean
 
 import (
 	"log"
-	"github.com/yoavl/coucher/database"
+	"github.com/yoav/coucher/database"
 )
 
 func CleanRevs(db *database.Database, id string, rev string, dryrun bool) (string, error) {

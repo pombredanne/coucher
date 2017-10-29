@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"bytes"
 	"log"
-	"github.com/yoavl/coucher/util"
+	"github.com/yoav/coucher/util"
 	"encoding/json"
 	"github.com/bugsnag/bugsnag-go/errors"
 	"strings"
@@ -24,7 +24,7 @@ type Database struct {
 }
 
 func (db *Database) Url() string {
-	if (db.Username == "") {
+	if db.Username == "" {
 		return fmt.Sprintf("%s/%s", db.BaseUrl, db.Name)
 	} else {
 		i := strings.Index(db.BaseUrl, ":")

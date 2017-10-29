@@ -4,7 +4,7 @@ import (
 	"github.com/spf13/cobra"
 	"fmt"
 	"strings"
-	"github.com/yoavl/coucher/database"
+	"github.com/yoav/coucher/database"
 )
 
 var docid, revision string
